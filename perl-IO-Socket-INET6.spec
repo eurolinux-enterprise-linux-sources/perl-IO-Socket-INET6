@@ -1,6 +1,6 @@
 Name:           perl-IO-Socket-INET6
 Version:        2.69
-Release:        4.1%{?dist}
+Release:        5%{?dist}
 Summary:        Perl Object interface for AF_INET|AF_INET6 domain sockets
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -49,6 +49,9 @@ make test
 %{_mandir}/man3/IO::Socket::INET6.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.69-5
+- Mass rebuild 2013-12-27
+
 * Thu Aug 01 2013 Petr Šabata <contyk@redhat.com> - 2.69-4.1
 - Add a better description
 - Fix the dependency list
