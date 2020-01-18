@@ -1,3 +1,4 @@
-# ELS - Enterprise Linux/EuroLinux Sources - perl-IO-Socket-INET6 
+# ELS - Enterprise Linux/EuroLinux Sources - perl-IO-Socket-INET6
+ 
 ## Usage:
-  Checkout branch or tag.
+  Checkout branch or tag. Use `make sources` to recreate  SOURCE0 archive.
